@@ -23,6 +23,15 @@ except Exception:
 # 获取py 文件所在路径并设置成工作路径
 os.chdir(os.path.dirname(__file__))
 
+content = open('./parameters.cfg').read()  
+# Window下用记事本打开配置文件并修改保存后，编码为UNICODE或UTF-8的文件的文件头会被相应地
+# 加上\xff\xfe（\xff\xfe）或\xef\xbb\xbf，然后再传递给ConfigParser解析的时候会出错  
+# ，因此解析之前，先替换掉
+content = re.sub(r"\xfe\xff", "", content)  
+content = re.sub(r"\xff\xfe", "", content)
+content = re.sub(r"\xef\xbb\xbf", "", content)
+open('./parameters.cfg', 'w').write(content)
+
 # 获取配置文件参数
 config_raw = configparser.RawConfigParser()
 config_raw.read('./parameters.cfg', encoding="utf-8")
