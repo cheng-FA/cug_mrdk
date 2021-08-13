@@ -18,7 +18,9 @@
 
 - python 3.9.6下载地址https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe
 
-![image-20210813171154417](/Users/liyang/Library/Application Support/typora-user-images/image-20210813171154417.png)
+![image-20210813171154417](./pictures/image-20210813171154417.png)
+
+
 
 ### 2.pip安装Python3相关依赖库
 
@@ -67,21 +69,21 @@ PassWord = 123456
 
 键盘键入windows+R打开运行，然后输入“control schedtasks”，点击确定，打开任务计划程序
 
-![image-20210813185238326](/Users/liyang/Library/Application Support/typora-user-images/image-20210813185238326.png)
+![image-20210813185238326](./pictures/image-20210813185238326.png)
 
 点击“导入任务”，选择“CUG_mrdk.xml”文件
 
-![image-20210813185457184](/Users/liyang/Library/Application Support/typora-user-images/image-20210813185457184.png)
+![image-20210813185457184](./pictures/image-20210813185457184.png)
 
-![image-20210813185525413](/Users/liyang/Library/Application Support/typora-user-images/image-20210813185525413.png)
+![image-20210813185525413](./pictures/image-20210813185525413.png)
 
 确认相关选项设置，打开“操作”标签页，双击修改运行命令为“autoCheckin.py”文件所在路径，然后点击右下角“确定”按钮输入密码，保存设置
 
-![image-20210813185826179](/Users/liyang/Library/Application Support/typora-user-images/image-20210813185826179.png)
+![image-20210813185826179](./pictures/image-20210813185826179.png)
 
 选中设置好的任务计划程序“CUG_mrdk”，点击运行，测试是否正常
 
-![image-20210813190117343](/Users/liyang/Library/Application Support/typora-user-images/image-20210813190117343.png)
+![image-20210813190117343](./pictures/image-20210813190117343.png)
 
 在程序根目录的“log.txt”文件中可以查看日志
 
