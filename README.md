@@ -19,6 +19,8 @@
 
 ## 使用
 
+以下内容适用用于Windows系统
+
 ### 1.安装Python3
 
 - python 3.9.6下载地址https://www.python.org/ftp/python/3.9.6/python-3.9.6-amd64.exe
@@ -98,3 +100,5 @@ PassWord = 123456
   - V1.0 一次性批量提交若干天的打卡请求
 - autoCheckin.py
   - V2.0 每天自动定时提交打卡请求 
+- ChromeDriver
+  - 浏览器驱动，将自己系统对应的chromedriver解压放在根目录的/bin文件夹中
