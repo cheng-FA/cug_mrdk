@@ -30,12 +30,12 @@
 pip3 install -r 'requirements.txt的路径'
 ```
 
-Pillow  图像处理
-pytesseract  识别验证码
-requests  提交http请求
-scipy  数值计算
-selenium  浏览器模拟
-urllib3  网络通信
+- Pillow  图像处理
+- pytesseract  识别验证码
+- requests  提交http请求
+- scipy  数值计算
+- selenium  浏览器模拟
+- urllib3  网络通信
 
 ### 3.安装tesseract验证码OCR程序
 
